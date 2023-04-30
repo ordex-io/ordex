@@ -13,8 +13,14 @@
     "lib": ["es2020", "dom"],
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
+    "esModuleInterop": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@ordex/btc-react-connector-hiro": ["libs/ordex-btc-react-connector-hiro/src"],
+      "@ordex/btc-react-connector-unisat": ["libs/ordex-btc-react-connector-unisat/src"],
+      "@ordex/btc-react-connector-xverse": ["libs/ordex-btc-react-connector-xverse/src"],
+      "@ordex/btc-react-types": ["libs/ordex-btc-react-types/src"],
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
